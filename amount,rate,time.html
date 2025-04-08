@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+function calculateSimpleInterest(principal, rate, time) {
+  simpleInterest = (principal * rate * time) / 100;
+  return simpleInterest;
+}
+
+ principalAmount = 100000;
+ interestRate = 9; 
+ timePeriod = 2; 
+
+ let interest = calculateSimpleInterest(principalAmount, interestRate, timePeriod);
+document.write("Simple Interest:", interest); 
+    </script>
+</body>
+</html>
